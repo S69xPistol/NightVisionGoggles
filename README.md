@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="icon.png" width="112" alt="NightVision Goggle icon">
+  <img src="icon.png" width="112" alt="NightVision Goggles icon">
 </p>
 
-<h1 align="center">NightVision Goggle</h1>
+<h1 align="center">NightVision Goggles</h1>
 
 <p align="center">
   A Windows tray app that brightens dark scenes in games (made with Escape from Tarkov's nights in mind)<br>
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/screenshots/main.png" alt="NightVision Goggle main window">
+  <img src="docs/screenshots/main.png" alt="NightVision Goggles main window">
 </p>
 
 Based on [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilterTool) by **zeroxpapone**, released under GPL-3.0. This version adds a redesigned interface, Digital Vibrance, multi-monitor support and presets management.
@@ -74,7 +74,7 @@ Running the exe while NightVision is already open toggles the filter, the same w
 ## Credits
 
 * Original project: [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilterTool) by **zeroxpapone**
-* NightVision Goggle: **S69xPistol**
+* NightVision Goggles: **S69xPistol**
 * Contributor: **Claude** (Anthropic), who co-wrote the redesign and the new features; the app icon was also made with Claude
 
 ## License
