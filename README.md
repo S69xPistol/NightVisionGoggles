@@ -4,6 +4,12 @@ A Windows tray app that brightens dark scenes in games (made with Escape from Ta
 
 Based on [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilterTool) by **zeroxpapone**, released under GPL-3.0. This version adds a redesigned interface, Digital Vibrance, multi-monitor support and presets management.
 
+## Requirements
+
+* Made for **Windows 11** with an **NVIDIA** graphics card.
+* Works on **AMD** and **Intel** GPUs too, but without Digital Vibrance (that part uses the NVIDIA driver); brightness, contrast, gamma and color channels work everywhere.
+* Windows 10 should work, with square window corners.
+
 ## Features
 
 * **Luminance**: brightness, contrast and gamma, applied through the Windows gamma ramp (works with NVIDIA, AMD and Intel GPUs).
@@ -27,13 +33,18 @@ Check that the values suit your monitor before relying on them in a match: hop o
   .venv\Scripts\python launcher.py
   ```
 * **Build the exe**: `.venv\Scripts\python build.py` → `dist\NightVision.exe`.
-* **Regenerate the icon**: `.venv\Scripts\python tools\make_icon.py`.
 
 Settings and presets are stored in a `config` folder next to the executable (`settings.json`, `presets.json`), so the app is portable. If that folder is not writable (e.g. inside Program Files) they go to `%LOCALAPPDATA%\NightVision`. Settings from NVFT 2.x are imported on first start.
 
 ## Stream Deck / MacroButtons
 
 Running the exe while NightVision is already open toggles the filter, the same way the hotkey does. So a Stream Deck button can simply run `NightVision.exe`, and in VoiceMeeter MacroButtons you can use `System.Execute("PATH TO NightVision.exe","","");`.
+
+## Credits
+
+* Original project: [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilterTool) by **zeroxpapone**
+* NightVision Goggle: **S69xPistol**
+* Contributor: **Claude** (Anthropic), who co-wrote the redesign and the new features; the app icon was also made with Claude
 
 ## License
 
