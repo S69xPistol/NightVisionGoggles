@@ -57,6 +57,7 @@ Check that the values suit your monitor before relying on them in a match: hop o
 ## Install / run
 
 * **Download**: check the Releases page for the latest `NightVision.exe` (if available).
+  The app itself is called NightVision: the executable is `NightVision.exe` and the window and tray show that name.
 * **From source** (Python 3.12):
   ```
   python -m venv .venv
