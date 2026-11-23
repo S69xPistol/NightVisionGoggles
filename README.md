@@ -1,6 +1,21 @@
-# NightVision Goggle
+<p align="center">
+  <img src="icon.png" width="112" alt="NightVision Goggle icon">
+</p>
 
-A Windows tray app that brightens dark scenes in games (made with Escape from Tarkov's nights in mind) by changing the monitor's gamma ramp, with optional NVIDIA Digital Vibrance.
+<h1 align="center">NightVision Goggle</h1>
+
+<p align="center">
+  A Windows tray app that brightens dark scenes in games (made with Escape from Tarkov's nights in mind)<br>
+  by changing the monitor's gamma ramp, with optional NVIDIA Digital Vibrance.
+</p>
+
+<p align="center">
+  <a href="../../releases/latest"><b>Download the latest release</b></a>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/main.png" alt="NightVision Goggle main window">
+</p>
 
 Based on [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilterTool) by **zeroxpapone**, released under GPL-3.0. This version adds a redesigned interface, Digital Vibrance, multi-monitor support and presets management.
 
@@ -22,6 +37,22 @@ Based on [NightVisionFilterTool](https://github.com/zeroxpapone/NightVisionFilte
 * Native Windows 11 window behaviour: Snap, Snap Layouts, resizing and animations.
 
 Check that the values suit your monitor before relying on them in a match: hop on an offline raid to try them out.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/light.png" alt="Light theme, Digital Vibrance"><p align="center">Light theme · Digital Vibrance</p></td>
+    <td width="50%"><img src="docs/screenshots/hotkeys.png" alt="Hotkeys"><p align="center">Global hotkeys for the toggle and every preset</p></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/monitors.png" alt="Monitors"><p align="center">Apply the filter to one or more monitors</p></td>
+    <td width="50%"><img src="docs/screenshots/settings.png" alt="Settings"><p align="center">Settings</p></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/screenshots/compact.png" width="60%" alt="Compact layout"><p align="center">Narrow window: the sidebar collapses to icons</p></td>
+  </tr>
+</table>
 
 ## Install / run
 
